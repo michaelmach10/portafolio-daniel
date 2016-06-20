@@ -1,0 +1,81 @@
+body{
+	/*background: #112;*/
+	background: url(img/fondo.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	color: #eed;
+	font-family: 'Roboto Slab', serif;
+	text-align: center;
+	margin: 0;
+}
+footer{
+	background: rgba(0,0,0,0.9);
+	color: rgba(0,0,0,0.9);
+	height: 3em;
+	line-height: 3em;
+	padding: 1em;
+	text-align: right;
+}
+footer:hover{
+	color: white;
+}
+h2{
+	display: inline-block;
+	border-left: 1px solid white;
+	border-right: 1px solid white;
+	width: 32%;
+}
+h3{
+	display: block;
+	border-bottom: 1px solid white;
+}
+img{
+	width: 50%;
+}
+img:hover{
+	transform: scale(1.1);
+}
+p{
+	font-style: italic;
+	margin: 1em;
+}
+section{
+	background: rgba(44, 62, 80,0.5);
+	padding-top: 4em;
+}
+.ancho2{
+	width: 66%;
+}
+header{
+	background: rgba(0,0,0,0.9);
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+}
+.derecha{
+	margin-left: 33%;
+}
+.eterno{
+	width: 80%
+}
+.eterno{
+	display: inline-block;
+	width: 66%;
+}
+.exp{
+	display: inline-block;
+	width: 33%;
+}
+.papa{
+	background: rgba(211, 84, 0,0.7);
+}
+.reino{
+	background: peru;
+	height: 2em;
+	line-height: 2em;
+}
+.tiempo{
+	margin-top: 5em; 
+}
